@@ -1,0 +1,10 @@
+F:\VisualStudio2019\proj\Forms_MyAccessPort\bin\Debug\Forms_MyAccessPort.exe.config
+F:\VisualStudio2019\proj\Forms_MyAccessPort\bin\Debug\Forms_MyAccessPort.exe
+F:\VisualStudio2019\proj\Forms_MyAccessPort\bin\Debug\Forms_MyAccessPort.pdb
+F:\VisualStudio2019\proj\Forms_MyAccessPort\obj\Debug\Forms_MyAccessPort.csprojAssemblyReference.cache
+F:\VisualStudio2019\proj\Forms_MyAccessPort\obj\Debug\Forms_MyAccessPort.Form1.resources
+F:\VisualStudio2019\proj\Forms_MyAccessPort\obj\Debug\Forms_MyAccessPort.Properties.Resources.resources
+F:\VisualStudio2019\proj\Forms_MyAccessPort\obj\Debug\Forms_MyAccessPort.csproj.GenerateResource.cache
+F:\VisualStudio2019\proj\Forms_MyAccessPort\obj\Debug\Forms_MyAccessPort.exe
+F:\VisualStudio2019\proj\Forms_MyAccessPort\obj\Debug\Forms_MyAccessPort.pdb
+F:\VisualStudio2019\proj\Forms_MyAccessPort\obj\Debug\Forms_MyAccessPort.accessPort.resources

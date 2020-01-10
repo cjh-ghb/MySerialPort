@@ -1,0 +1,126 @@
+WinForms实现串口调试助手
+项目要求为：
+1.拥有字符串/十六进制发送/接收功能
+2.串口通信信息能够以log文件保存，log文件中通信信息带时间戳
+3.能查看电脑串口名字，简洁直观的用户界面
+4.方便定位log文件位置
+
+首先，考虑用户界面简洁，将serialPort控件放置在另外一个窗体中，这样可以在主窗体上省出串口号/协议/波特率/数据位/停止位/校验位/流控制一系列的串口通信设置项，只需要一个设置按钮代替。
+1.	串口的连接
+	在串口设置窗体中，加载窗体时，便扫描识别存在的串口
+		RegistryKey keyCom = Registry.LocalMachine.OpenSubKey("Hardware\\DeviceMap\\SerialComm");
+	然后将识别出的串口名添加到串口相关combo控件上
+			if (keyCom != null)
+            {
+                string[] sSubKeys = keyCom.GetValueNames();
+                //把COM口的名字显示在Items里去
+                comboPort.Items.Clear();
+                foreach(string name in sSubKeys)
+                {
+                    string value = (string)keyCom.GetValue(name);
+                    comboPort.Items.Add(value);
+                }
+                if(comboPort.Items.Count > 0)
+                {
+                    comboPort.SelectedIndex = 0;
+                }
+            }
+    对于serialPort的/波特率/数据位/停止位/校验位，如果不设置，那么为默认值，且波特率默认值为9600，但是我们设置为115200.
+    那么其实，在这个窗体并没有进行连接，只是得到相关数据返回给主窗体
+    窗体间数据传输之前是通过事件，但是这种情况采用共有属性更为方便
+    	public static bool serialConnect { get; set; }	//确认串口设置
+   		public static string NewPort = "";
+        public static Int32 NewBaudRate = 0;
+        然后将值赋值
+        serialConnect = true;
+        NewPort = comboPort.Text;
+        NewBaudRate = ToInt32(comboBaud.Text);
+    这样便可实现窗体间数据传递
+
+    那么Forms中的serialPort控件应该在主窗体中，从窗体设置窗体的确认串口按钮按下后，将串口设置信息保存在变量中，然后点击开启按钮，设置serialPort控件参数并连接串口，如下：
+    	serialPort1.PortName = MainPort;
+        serialPort1.BaudRate = MainBaudRate;
+        serialPort1.Open();
+        serialPort1.DataReceived += new
+            SerialDataReceivedEventHandler(DataReceived);
+
+2.用户界面介绍
+	用户界面上除了用了显示信息的文本框，根据项目要求和实际需求，还有着把接收数据16进制显示成字符串的功能，把要发送的字符串转成16进制发送，发送的字符串需不需要加上换行当做命令，状态栏显示已接收多少数据发送多少数据和当前连接的端口号和波特率
+		实现上述基本功能还拥有启动/关闭串口，显示log文件按钮就能实现项目要求了
+2.1	\r\n选项
+	if (checkChangeLine.CheckState == CheckState.Checked)
+    {
+        textString.Text += "\r\n";
+    }
+2.2	字符串转成16进制发送
+	if ((stringCheck.CheckState == CheckState.Checked)	//选择输出16进制
+        && (textString.Text.Trim() != "")		//字符串不为空
+        && (textString.Text.Substring(0,2) != "0x"))	//字符串是0x开头当做已是16进制
+    {
+        char[] texts = textString.Text.ToCharArray();
+        foreach (char letter in texts)
+        {
+            int text = Convert.ToInt32(letter);
+            HexOutput += string.Format("{0:X} ", text);
+        }
+        textString.Text = HexOutput;
+        HexOutput = "";
+    }
+2.3	接收数据16进制显示成字符串		（思考逻辑）
+	int i = 0;  //代表它是第几行
+    var hexSplit = richTextBox1.Text.Split(' ');
+    string endStr = "";
+    if (fileCheck.CheckState == CheckState.Checked
+        && richTextBox1.Text.Trim() != "")
+    {
+        //再判断文本内容是否为HEX，和对哪部分文本内容转换
+        while (i < hexSplit.Length) //小于数组个数
+        {
+            if (hexSplit[i].Length == 2)    //两个字节就是分割出来的hex
+            {
+                int value = Convert.ToInt32(hexSplit[i], 16);
+                char charValue = (char)value;
+                endStr += charValue;
+            }
+            else
+            {
+                endStr += hexSplit[i] + " ";
+            }
+            i++;
+        }
+        richTextBox1.Text = endStr;
+    }
+2.4	状态栏仅仅是统计数据数量和将端口号和波特率显示
+
+3.方便定位log文件和对log文件保存信息带时间戳
+	如果仅是对发送和接收的信息带时间戳的生成log文件是很轻松的，网络上大部分讲析并没有将系统信息带入log文件，且log文件保存为txt格式
+3.1方便定位log文件，肯定不能自己设置保存文件路径了
+	private string filePath = Environment.CurrentDirectory + "\\Log.txt";
+	//定义文件路径为当前项目下
+3.2每一次接收数据将数据写入log文件
+	if (!File.Exists(filePath))
+    {
+        FileStream fileStream = new FileStream(filePath,
+            FileMode.Create, FileAccess.Write); //向新建文件中写入
+        SendToLog(fileStream, str);
+    }
+    else
+    {
+        FileStream fileStream = new FileStream(filePath,
+            FileMode.Open, FileAccess.Write);   //已经有文件，进行写入
+        SendToLog(fileStream, str);
+    }
+    	public void SendToLog(FileStream fileStream, string str)
+        {
+            fileStream.Seek(0, SeekOrigin.End);	//移动光标
+            StreamWriter streamWriter = new StreamWriter(fileStream);
+            streamWriter.WriteLine("Information " + LogNum + "  "
+                + DateTime.Now.ToString() + ":");
+            LogNum++;
+            streamWriter.Write(str);
+            streamWriter.WriteLine();
+            streamWriter.Close();
+            fileStream.Close();
+        }
+
+ok,完结

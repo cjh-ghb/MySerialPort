@@ -1,0 +1,657 @@
+Information31 2019/12/26 10:54:32:
+help
+
+HELP
+RESET
+VOL1 XX[000-025]
+VOL2 XX[000-025]
+READ SPK1
+READ SPK2
+CBR WAVE OPEN
+CBR WAVE SHORT
+CBL WAVE OPEN
+CBL WAVE SHORT
+MIC WAVE OPEN
+MIC WAVE SHORT
+MIC1 ON
+MIC2 ON
+MIC3 ON
+MIC4 ON
+1K Tone On
+1K Tone Off
+3K Tone On
+3K Tone Off
+1K ToneR On
+1K ToneR Off
+3K ToneR On
+3K ToneR Off
+GET FIXTURE VER
+CONTROL BOARD VER
+*_*
+
+Information0 2019/12/26 11:01:11:
+help
+
+HELP
+RESET
+VOL1 XX[000-025]
+VOL2 XX[000-025]
+
+Information1 2019/12/26 11:01:11:
+READ SPK1
+READ SPK2
+CBR WAVE OPEN
+CBR WAVE SHORT
+CBL WAVE OPEN
+CBL WAVE SHORT
+MIC WAVE OPEN
+MIC WAVE SHORT
+MIC1 ON
+MIC2 ON
+MIC3 ON
+MIC4 ON
+1K Tone On
+1K Tone Off
+3K Tone On
+3K Tone Off
+1K ToneR On
+1K ToneR Off
+3K ToneR On
+3K ToneR Off
+GET FIXTURE VER
+CONTROL BOARD VER
+*_*
+
+Information2 2019/12/26 11:01:17:
+asfafasf
+
+Command Not Found!
+*_*
+
+Information3 2019/12/26 11:01:22:
+aefe
+
+Command Not Found!
+*_*
+
+Information 0  2019/12/26 11:05:48:
+asdf
+
+Command Not Found!
+*_*
+
+Information 1  2019/12/26 11:05:53:
+asdf
+
+???
+
+Command Not Found!
+*_*
+
+Information 2  2019/12/26 11:06:02:
+asa 
+
+Command Not Found!
+*_*
+
+Information 3  2019/12/26 11:06:08:
+wecc
+
+Command Not Found!
+*_*
+
+Information 4  2019/12/26 11:06:14:
+ertefd
+
+Command Not Found!
+Information 5  2019/12/26 11:06:14:
+
+*_*
+
+Information 6  2019/12/26 11:06:19:
+ref
+
+Command Not Found!
+*_*
+
+Information 0  2019/12/26 11:47:13:
+help
+
+HELP
+RESET
+VOL1 XX[000-025]
+VOL2 XX[000-025]
+READ SPK1
+READ SPK2
+CBR WAVE OPEN
+CBR WAVE SHORT
+CBL WAVE OPEN
+CBL WAVE SHORT
+MIC WAVE OPEN
+MIC WAVE SHORT
+MIC1 ON
+MIC2 ON
+MIC3 ON
+MIC4 ON
+1K Tone On
+1K Tone Off
+3K Tone On
+3K Tone Off
+1K ToneR On
+1K ToneR Off
+3K ToneR On
+3K ToneR Off
+GET FIXTURE VER
+CONTROL BOARD VER
+*_*
+
+Information 1  2019/12/26 11:47:29:
+some
+
+Comm
+Information 2  2019/12/26 11:47:29:
+and Not Found!
+*_*
+
+Information 3  2019/12/26 11:47:42:
+help
+
+HELP
+RESET
+VOL1 XX[000-025]
+VOL2 XX[000-025]
+READ SPK1
+READ SPK2
+CBR WAVE OPEN
+CBR WAVE SHORT
+CBL WAVE OPEN
+CBL WAVE SHORT
+MIC WAVE OPEN
+MIC WAVE SHORT
+MIC1 ON
+MIC2 ON
+MIC3 ON
+MIC4 ON
+1K Tone On
+1K Tone Off
+3K Tone On
+3K Tone Off
+1K ToneR On
+1K ToneR Off
+3K ToneR On
+3K ToneR Off
+GET FIXTURE VER
+CONTROL BOARD VER
+*_*
+
+Information 4  2019/12/26 11:48:32:
+helpsd
+
+Command Not Found!
+*_*
+
+Information 5  2019/12/26 11:48:38:
+sd 
+
+Command Not Found!
+*_*
+
+Information 6  2019/12/26 11:48:40:
+sd 
+
+ss
+
+Command Not Found!
+*_*
+
+Information 7  2019/12/26 11:48:45:
+wwwwwwwwwwwww
+
+Command Not Found!
+*_*
+
+Information 8  2019/12/26 11:48:51:
+www
+
+Command Not Found!
+*_*
+
+Information 9  2019/12/26 11:49:01:
+help
+
+HELP
+RESET
+VOL1 XX[000-025]
+VOL2 XX[000-025]
+READ SPK1
+READ SPK2
+CBR WAVE OPEN
+CBR WAVE SHORT
+CBL WAVE OPEN
+CBL WAVE SHORT
+MIC WAVE OPEN
+MIC WAVE SHORT
+MIC1 ON
+MIC2 ON
+MIC3 ON
+MIC4 ON
+1K Tone On
+1K Tone Off
+3K Tone On
+3K Tone Off
+1K ToneR On
+1K ToneR Off
+3K ToneR On
+3K ToneR Off
+GET FIXTURE VER
+CONTROL BOARD VER
+*_*
+
+Information 10  2019/12/26 11:49:06:
+help
+
+
+
+HELP
+RESET
+VOL1 XX[000-025]
+VOL2 XX[000-025]
+READ SPK1
+READ SPK2
+CBR WAVE OPEN
+CBR WAVE SHORT
+CBL WAVE OPEN
+CBL WAVE SHORT
+MIC WAVE OPEN
+MIC WAVE SHORT
+MIC1 ON
+MIC2 ON
+MIC3 ON
+MIC4 ON
+1K Tone On
+1K Tone Off
+3K Tone On
+3K Tone Off
+1K ToneR On
+1K ToneR Off
+3K ToneR On
+3K ToneR Off
+GET FIXTURE VER
+CONTROL BOARD VER
+*_*
+
+Information 0  2019/12/26 11:52:29:
+sdsd
+
+Command Not Found!
+*_*
+
+Information 0  2019/12/26 13:46:07:
+68656C70
+Information 1  2019/12/26 13:46:10:
+68656C70
+
+Command Not Found!
+*_*
+
+Information 2  2019/12/26 13:46:11:
+68656C70
+
+
+
+Command Not Found!
+*_*
+
+Information 3  2019/12/26 13:46:34:
+68656C70
+
+
+
+Command Not Foun
+Information 4  2019/12/26 13:46:34:
+d!
+*_*
+
+Information 0  2019/12/26 13:51:07:
+68686868
+Information 1  2019/12/26 13:51:16:
+68686868
+
+Command Not Found!
+*_*
+
+Information 2  2019/12/26 13:51:52:
+0x06
+
+Command Not Found!
+Information 3  2019/12/26 13:51:52:
+
+*_*
+
+Information 4  2019/12/26 13:52:37:
+lllllllll
+Information 0  2019/12/26 13:54:39:
+353535353535353535353534343434
+Information 0  2019/12/26 14:04:21:
+ddddd
+Information 1  2019/12/26 14:04:27:
+ddddd
+
+Command Not Found!
+*_*
+
+Information 2  2019/12/26 14:04:31:
+6464646464DA
+
+Command Not Found!
+*_*
+Information 3  2019/12/26 14:04:31:
+
+
+Information 4  2019/12/26 14:04:40:
+ggggg
+
+Command Not Found!
+*_*
+
+Information 5  2019/12/26 14:04:48:
+6767676767DA
+
+Command Not Found!
+*_*
+
+Information 6  2019/12/26 14:04:58:
+7575757575
+
+Command Not Found!
+*_*
+
+Information 7  2019/12/26 14:05:05:
+7474747474
+
+Com
+Information 8  2019/12/26 14:05:05:
+mand Not Found!
+*_*
+
+Information 9  2019/12/26 14:06:18:
+74747474
+Information 10  2019/12/26 14:06:18:
+74
+
+
+
+Command Not Found!
+*_*
+
+Information 11  2019/12/26 14:06:25:
+7474747474
+
+
+
+
+
+Command Not Found!
+*_*
+
+Information 12  2019/12/26 14:06:32:
+7474747474
+
+
+
+
+
+
+
+Command Not Found!
+*_*
+
+Information 13  2019/12/26 14:06:36:
+3734
+Information 14  2019/12/26 14:06:37:
+3734373437343734DADADADA
+
+Command Not Found!
+*_*
+
+Information 15  2019/12/26 14:06:46:
+33373334333733343337333433373334333733344441444144414441DA
+
+Command Not Found!
+*_*
+
+Information 0  2019/12/26 15:07:19:
+6F69756F7570
+
+Command Not Found!
+*_*
+
+Information 0  2019/12/26 15:36:38:
+99
+Information 1  2019/12/26 15:36:48:
+993
+
+
+Information 2  2019/12/26 15:36:48:
+Command Not Found!
+*_*
+
+Information 3  2019/12/26 15:36:55:
+39 39 33 D A 
+
+Command Not Found!
+*_*
+
+Information 0  2019/12/26 16:02:02:
+72 67 73 64 66 
+
+Command Not Found!
+*_*
+
+Information 1  2019/12/26 16:02:13:
+68 65 6C 70 
+
+Command Not Found!
+*_*
+
+Information 2  2019/12/26 16:02:42:
+6C 6C 70 
+
+Command Not Found!
+*_*
+
+Information 0  2019/12/26 16:03:46:
+39 39 39 
+
+Command Not Found!
+*_*
+
+Information 1  2019/12/26 16:03:54:
+74 66 67 
+
+Command Not Found!
+*_*
+
+Information 2  2019/12/26 16:04:07:
+37 34 20 36 36 20 36 37 20 D A 
+
+Command Not Found!
+*_*
+
+Information 3  2019/12/26 16:04:28:
+37 34 20 36 36 20 36 37 20 D A 
+
+
+
+Command 
+Information 4  2019/12/26 16:04:28:
+
+Information 5  2019/12/26 16:04:28:
+Not Found!
+*_*
+
+Information 6  2019/12/26 16:04:33:
+37 34 20 36
+Information 7  2019/12/26 16:04:33:
+
+Information 8  2019/12/26 16:04:33:
+ 36 20 36 37 20 D A 
+
+
+
+
+
+Command Not Found!
+*_*
+
+Information 9  2019/12/26 16:04:36:
+37 34 20 36 36 20 36 37 20 D A 
+
+
+
+
+
+
+
+Command Not Found!
+*_*
+
+Information 10  2019/12/26 16:04:36:
+
+Information 11  2019/12/26 16:04:36:
+
+Information 12  2019/12/26 16:04:38:
+37 34 20 36 36 20 36 37 20 D A 
+
+
+
+
+Information 13  2019/12/26 16:04:38:
+
+Information 14  2019/12/26 16:04:38:
+
+
+
+
+
+
+Command Not Found!
+*_*
+
+Information 15  2019/12/26 16:04:46:
+36 36 
+
+Command Not Found!
+*_*
+
+Information 16  2019/12/26 16:04:46:
+
+Information 17  2019/12/26 16:04:46:
+
+Information 18  2019/12/26 16:04:49:
+36 36 
+
+
+
+Command Not Found!
+*_*
+
+Information 19  2019/12/26 16:04:49:
+
+Information 20  2019/12/26 16:04:49:
+
+Information 21  2019/12/26 16:04:53:
+36 36 
+
+
+
+
+
+Command Not Found!
+*_*
+
+Information 22  2019/12/26 16:04:53:
+
+Information 23  2019/12/26 16:04:53:
+
+Information 0  2019/12/26 16:18:57:
+71 71 71 71 71 
+
+Command Not 
+Information 1  2019/12/26 16:18:57:
+Found!
+*_*
+
+Information 2  2019/12/26 16:19:04:
+help
+
+HELP
+RESET
+VOL1 XX[000-025]
+VOL2 XX[000-025]
+READ SPK1
+READ SPK2
+CBR WAVE OPEN
+CBR WAVE SHORT
+CBL WAVE OPEN
+CBL WAVE SHORT
+MIC WAVE OPEN
+MIC WAVE SHORT
+MIC1 ON
+MIC2 ON
+MIC3 ON
+MIC4 ON
+1K Tone On
+1K Tone Off
+3K Tone On
+3K Tone Off
+1K ToneR On
+1K ToneR Off
+3K ToneR On
+3K ToneR Off
+GET FIXTURE VER
+CONTROL BOARD VER
+*_*
+
+Information 0  2019/12/26 21:09:43:
+65 65 65 65 65 
+
+Command Not Found!
+*_*
+
+Information 1  2019/12/26 21:10:00:
+65 65 65 65 65 
+
+
+
+Command Not Found!
+*_*
+
+Information 2  2019/12/26 21:10:20:
+65 65 65 65 65 
+
+
+
+
+
+Command Not Found!
+*_*
+
+Information 3  2019/12/26 21:10:25:
+65 65 65 65 65 
+
+
+
+
+
+
+
+Command Not Found!
+*_*
+
+Information 0  2019/12/26 21:11:58:
+39 39 39 39 39 39 
+
+Command Not Found!
+*_*
+

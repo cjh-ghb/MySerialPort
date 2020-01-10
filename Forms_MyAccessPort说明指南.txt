@@ -1,0 +1,2 @@
+﻿打开Forms_MyAccessPort文件夹，通过Visual Studio(.NET framework 4.0版本)打开解决方案Forms_MyAccessPort.sln。
+详情参考Forms_MyAccessPort学习指北.txt
